@@ -1,0 +1,6 @@
+module_slug,title,level,reading_time,file_type
+intro-to-programming,Как мыслит программа,base,8,pdf
+functions,Функции и повторно используемая логика,base,8,txt
+sql-basics,SQL для чтения и выборок,core,12,csv
+nextjs-fundamentals,Next.js и рендеринг под SEO,core,14,pdf
+deploy-and-monitoring,"Деплой, кэш и наблюдаемость",advanced,16,txt

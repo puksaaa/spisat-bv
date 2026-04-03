@@ -1,0 +1,43 @@
+{
+  "name": "kakashka-methodics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "tsx scripts/seed.ts",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@marsidev/react-turnstile": "^1.1.0",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.44.0",
+    "next": "^15.0.0",
+    "postgres": "^3.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "rehype-slug": "^6.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "sanitize-html": "^2.17.0",
+    "unified": "^11.0.5",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/sanitize-html": "^2.16.0",
+    "drizzle-kit": "^0.31.4",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "^15.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.2"
+  }
+}
